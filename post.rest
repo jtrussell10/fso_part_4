@@ -1,0 +1,9 @@
+post http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0Y2M2ZGYwZjkzNGE5NDhlM2ZmZWU3ZiIsImlhdCI6MTY5MTQxMTQ5N30.fZQtvSvKaHm0fsdGLSFppy_Ju3xJ_3u5eN_vz6BzycA
+
+{
+    "title": "August 7",
+    "author": "Myself",
+    "url": "test.com"
+}
